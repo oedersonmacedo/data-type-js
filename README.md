@@ -26,3 +26,13 @@
   - **Decimal:** Decimal numbering system, base 10, must start with a number from 0 to 9, followed by numbers from 0 to 9 with or without a point, indicating whether it's an integer or decimal;
   - **Hexadecimal:** Hexadecimal numbering system, base 16, must start with **0x** or **0X**, followed by numbers from 0 to 9 and of **A** to **F**;
   - **Octal:** Octal numbering system, base 8, should start with **0o** or ""0O"", followed  by numbers from **0** to **7**;
+ - The toExponential, toFixed and toPrecision methods can be used to change the way a number is represented;
+  - **toExponential:** The method returns a string representing a number in exponential notation;
+  - **toFixed:** The method returns the amounts after the limiting point according to the passed parameter. In short, quantity after the point;
+  - **toPrecision:** Returns number with a specified precision;
+ - **Numerical operations**
+  - Arithmetic operators: + (sum), - (minus), * multiplication, / (division), and % (remainder division)
+  - Assigment operators: =, +=, -=, * =, /= and %=
+  - Incerement and decrement operator: -- and ++
+    - If the operator has after the variable (*variable++ or variable--*), first it will show the value and then assign it ano more;
+    - However, if the operator has before the variable (*++variable or --variable*), it will first assign one more, and then show the updated value.

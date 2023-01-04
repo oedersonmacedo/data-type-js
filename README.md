@@ -37,3 +37,4 @@
     - If the operator has after the variable (*variable++ or variable--*), first it will show the value and then assign it one more or one less;
     - However, if the operator has before the variable (*++variable or --variable*), it will first assign one more or one less, and then show the updated value;
   - Binary operators (Bitwise): |(OR), &(AND), ^(XOR), ~(NOT), <<(LEFT SHIFT), >>(RIGHT SHIFT) and >>>(UNSIGNED RIGHT SHIFT);
+  - **WARNING** no to confuse the operators **|** and **&** with **||** and **&&**.

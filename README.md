@@ -42,6 +42,6 @@
   - **Bitwise | (OR):** The bitwise operator OR, returns 1, in each position that the bit has 1, if it don't 1 assigns 0;
   - **Bitwise & (AND):** The bitwise operator AND, returns 1 only if both positions have the number 1, otherwise assigns 0;
   - **Bitwise ^ (XOR):** The bitwise operator XOR, returns 1 only if 1 has 1 the comparassion, if both have 0;
-  - **Bitwise ~ (OR):** The bitwise operator OR, inverts the bit value;
-  - 
-  - **WARNING** no to confuse the operators **|** and **&** with **||** and **&&**.
+  - **Bitwise ~ (NOT):** The bitwise operator OR, inverts the bit value;
+  - **Operator << (left shift):** shifts the first operand the amount informed in the second operand, keeping in mind that maximum is 32 bits. It's padded to the right with 0;
+- **WARNING** no to confuse the operators **|** and **&** with **||** and **&&**.

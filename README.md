@@ -36,10 +36,12 @@
   - Incerement and decrement operator: -- and ++:
     - If the operator has after the variable (*variable++ or variable--*), first it will show the value and then assign it one more or one less;
     - However, if the operator has before the variable (*++variable or --variable*), it will first assign one more or one less, and then show the updated value;
-  - Binary operators (Bitwise): |(OR), &(AND), ^(XOR), ~(NOT), <<(LEFT SHIFT), >>(RIGHT SHIFT) and >>>(UNSIGNED RIGHT SHIFT):
-    - **Bitwise | (OR):** The bitwise operator OR, returns 1, in each position that the bit has 1, if it don't 1 assigns 0;
-    - **Bitwise & (AND):** The bitwise operator AND, returns 1 only if both positions have the number 1, otherwise assigns 0;
-    - **Bitwise ^ (XOR):** The bitwise operator XOR, returns 1 only if 1 has 1 the comparassion, if both have 0;
-    - **Bitwise ~ (OR):** The bitwise operator OR, inverts the bit value;
-    - 
+
+#### Bitwise
+- Binary operators (Bitwise): |(OR), &(AND), ^(XOR), ~(NOT), <<(LEFT SHIFT), >>(RIGHT SHIFT) and >>>(UNSIGNED RIGHT SHIFT):
+  - **Bitwise | (OR):** The bitwise operator OR, returns 1, in each position that the bit has 1, if it don't 1 assigns 0;
+  - **Bitwise & (AND):** The bitwise operator AND, returns 1 only if both positions have the number 1, otherwise assigns 0;
+  - **Bitwise ^ (XOR):** The bitwise operator XOR, returns 1 only if 1 has 1 the comparassion, if both have 0;
+  - **Bitwise ~ (OR):** The bitwise operator OR, inverts the bit value;
+  - 
   - **WARNING** no to confuse the operators **|** and **&** with **||** and **&&**.

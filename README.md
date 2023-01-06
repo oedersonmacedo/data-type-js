@@ -45,6 +45,6 @@
   - **Bitwise ~ (NOT):** The bitwise operator OR, inverts the bit value;
   - **Operator << (left shift):** Shifts for left the first operand the amount informed in the second operand, keeping in mind that maximum is 32 bits. It's padded to the right with 0, acording to the second operator;
   - **Operator >> (right shift):** Shifts for right the first operand the amount informed in the second operator, keeping in mind that maximum is 32 bits. It's padded to the left with 0, acording to the second operator;
-  - 
+  - ****
 
 - **WARNING** no to confuse the operators **|** and **&** with **||** and **&&**.

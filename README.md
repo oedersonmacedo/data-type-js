@@ -16,7 +16,7 @@
 - Objects are values that represent an in-memory reference that can be changed.
 - typeof is diferent from instanceof.
 
-
+---
 ### Number
 
 - Is a primitive type.

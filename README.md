@@ -52,4 +52,5 @@
 - The simplest way to convert a number is by calling the Number constructor function. Example: *const  test = Number(0b10)*, expect value 2.
 - Another way is much assigned is the converts for way of the operators numerics. Example: *const  test = +"10"*, expect value 10.
 - **WARNING**, not all operators perform the data conversion. Example: *const test = 3 + "12"*, expect value "312".
-- 
+- The method *toString* of the number, allows to convert  for any system of numeration, needs to indicate why is the base desired, passing as parameter 10 for decimal, 16 for hexadecimal, 2 for binary and 8 for octal.
+- The method *parseInt* allows  to convert a String for a number. And is possible to convert with the bases decimal, hexadecimal, binary and octal. If not informed, the base assumes that the informed number is a decimal. As a parameter, the number is passed and, if necessary, the base the number is on.

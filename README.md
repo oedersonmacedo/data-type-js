@@ -47,3 +47,9 @@
   - **Operator >> (right shift):** Shifts for right the first operand the amount informed in the second operator, keeping in mind that maximum is 32 bits. It's padded to the left with 0, acording to the second operator;
   - **Unsigned right shift (>>>):** Seeks the representation of the first operand as a number without a negative sign, transforming to into  32-bits, after the process shifts for right. It's padded to the left with 0, acording to the second operator;
 - **WARNING** no to confuse the operators **|** and **&** with **||** and **&&**.
+
+#### Conversion number
+- The simplest way to convert a number is by calling the Number constructor function. Example: *const  test = Number(0b10)*, expect value 2.
+- Another way is much assigned is the converts for way of the operators numerics. Example: *const  test = +"10"*, expect value 10.
+- **WARNING**, not all operators perform the data conversion. Example: *const test = 3 + "12"*, expect value "312".
+- 

@@ -96,3 +96,4 @@
   - min: Returns the smallest number passed by parameter.
   - max: Returns the largest number passed by parameter.
   - random: Returns a random number between 0 and 1, not including 1.
+

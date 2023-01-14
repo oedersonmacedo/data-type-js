@@ -97,3 +97,39 @@
   - max: Returns the largest number passed by parameter.
   - random: Returns a random number between 0 and 1, not including 1.
 
+#### String
+- String is a primitive, immutable type and is represented internally by the Unicode standard, encoded in UTF-16
+- There are 4 ways to declare a String:
+  - single quotes: const test = 'test';
+  - double quotes: const test = “test”;
+  - grave accent: const test = `test`;
+  - constructor function: const test = new String('test');
+- CAUTION: The constructor function is slower and can degrade performance.
+- Some characters need to be escaped: “, \, \n
+- It is possible to write characters using their code point in the Unicode standard. Example: '\u0030' prints '0';
+- ##### String API
+  - length: Returns the length of the String
+  - indexOf: Returns the first position found of the character passed by parameter
+  - lastIndexOf: Returns the last found position of the character passed by parameter
+  - toUpperCase: Returns a new String converting letters to uppercase
+  - toLowerCase: Returns a new String converting letters to lowercase
+  - charAt: Returns the character at the position passed by parameter
+  - charCodeAt: Returns the code based on the position passed by parameter
+  - fromCharCode: Returns a character based on the code passed by parameter
+  - includes: Returns true if the String contains the String passed by parameter
+  - startsWith: Returns true if the String starts with the String passed by parameter
+  - endsWith: Returns true if the String ends with the String passed by parameter
+  - localeCompare: Returns -1 if the String passed by parameter is greater, 0 if equal and 1 if less
+  - match: Returns parts of the String based on the RegExp passed by parameter
+  - search: Returns the first position found based on the RegExp passed by parameter
+  - replace: Returns a new String resulting from replacing the String or RegExp passed in the first parameter by the second parameter
+  - slice: Returns a part of the String that is invoking the function starting at the position passed in the first parameter to the final position passed in the second parameter, or from the position passed in the first parameter to the end if the second parameter is not informed
+  - split: Returns an array containing the result of dividing the original String according to the criteria passed by parameter
+  - substring: Similar to slice, it does not accept negative values as a parameter and allows the inversion of parameters
+  - concat: Returns a new String resulting from the concatenation of the one invoking the function and the other, passed by parameter
+  - padStart: Completes the String with characters at the beginning
+  - padEnd: Complete the String with characters at the end
+  - repeat: Repeats a character
+  - trim: Trims leading and trailing whitespace
+  - trimLeft: Trims leading whitespace
+  - trimRight: Trims trailing whitespace

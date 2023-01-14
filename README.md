@@ -57,3 +57,42 @@
 - The parseFloat method does not allow the conversion of the bases, only numbers in the decimal type system.
 
 #### IEEE 754
+- Created in 1985 and adopted in several programming languages such as JavaScript, Ruby, Python and Java.
+- In JS, its representation is divided into 64 bits, the first position being the sign of the number, the next 11 bits are the exponential and its remaining 52 bits are called a fraction.
+- It is necessary to be careful for some types of operations involving numbers, because it can return something that you did not imagine.
+- When some operations are performed with decimal numbers, there may be residues due to the possibility of rounding. Example: 0.1 + 0.2 = 0.30000000000000004. Site that does the calculation and shows the division of Bits IEEE 754 Calculator
+- When the number exceeds the limits of the Number type, it is returned to Infinity. Both for positive or negative numbers.
+- NaN (Not a Number) is returned when performing a mathematical operation, where the result is not possible to determine.
+
+#### Math API
+- It is a built-in object that has constant properties and methods and mathematical functions. It is not a function object.
+- Math works with the Number type. It doesn't work with BigInt.
+- Math is not a constructor, all properties and accessor methods are static.
+- ## Properties:
+  - E: Natural logarithm. (Euller)
+  - LN10: Natural logarithm of 10
+  - LN2: Natural logarithm of 2
+  - LOG10E: Logarithm of E in base 10
+  - LOG2E: Logarithm of E to base 2
+  - IP: IP
+  - SQRT1_2: Square root of 1/2
+  - SQRT: Square root of 2
+- #### Methods:
+  - abs: Returns the positive number.
+  - ceil: Rounds the number up.
+  - floor: Rounds the number down.
+  - round: Rounds the number up if the decimal part is from 5 to 9 and down if it is from 0 to 4.
+  - sign: Returns 1 if the number is positive and -1 if it is negative, if it is 0 it returns 0 and if it is -0 it returns -0. If the number is not valid, it returns NaN.
+  - trunc: Returns the integer part of the number.
+  - cbrt: Returns the cube root of the number.
+  - cos: Returns the cosine of an angle.
+  - exp: Returns E raised to an exponent.
+  - hypot: Returns the square root of the squares of numbers.
+  - log: Returns the logarithm of the number in natural base.
+  - pow: Returns the number raised to a given exponent.
+  - sin: Returns the sine of an angle.
+  - sqrt: Returns the square root of the number.
+  - tan: Returns the tangent of an angle.
+  - min: Returns the smallest number passed by parameter.
+  - max: Returns the largest number passed by parameter.
+  - random: Returns a random number between 0 and 1, not including 1.

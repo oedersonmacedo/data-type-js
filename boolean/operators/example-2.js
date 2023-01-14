@@ -1,22 +1,23 @@
-//don't confuse equality and strict inequality 
-// with strict equality and strict inequality
+console.log(0 == '');
+//expect output: true
 
-// Equality (==) and Inequality(!=)
-console.log('1' == 1);
-// expect output: true
+console.log(0 == '0');
+//expect output: true
 
-console.log('1' != 1);
-// expect output: false
+console.log(false == undefined);
+//expect output: false
+
+console.log(false == null);
+//expect output: false
 
 console.log(null == undefined);
-// expect output: true 
+//expect output: true
 
-// Strict equality(===) and Strict inequality (!==)
-console.log('1' === 1);
-// expect output: false
+console.log(1 == true);
+//expect output: true
 
-console.log('1' !== 1);
-// expect output: true
+console.log(0 == false);
+//expect output: true
 
-console.log(null === undefined);
-// expect output: false
+console.log(0 == '\n');
+//expect output: true

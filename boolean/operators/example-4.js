@@ -1,17 +1,22 @@
-console.log(0 || 2);
-//expect output: 2
+//don't confuse equality and strict inequality 
+// with strict equality and strict inequality
 
-console.log(1 || 2);
-//expect output: 1
+// Equality (==) and Inequality(!=)
+console.log('1' == 1);
+// expect output: true
 
-console.log(1 || 0);
-//expect output: 1
+console.log('1' != 1);
+// expect output: false
 
-console.log(1 && 2);
-//expect output: 2
+console.log(null == undefined);
+// expect output: true 
 
-console.log(0 && 2);
-//expect output: 0
+// Strict equality(===) and Strict inequality (!==)
+console.log('1' === 1);
+// expect output: false
 
-console.log(1 && 0);
-//expect output: 0
+console.log('1' !== 1);
+// expect output: true
+
+console.log(null === undefined);
+// expect output: false

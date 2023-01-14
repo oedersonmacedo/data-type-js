@@ -133,3 +133,51 @@
   - trim: Trims leading and trailing whitespace
   - trimLeft: Trims leading whitespace
   - trimRight: Trims trailing whitespace
+
+#### Boolean
+- The Boolean type is primitive, immutable, and represented by the placeholder words true and false.
+- Beware of type coercion. (true === new Boolean(true)), returns false.
+- Type coercion happens when a data type is used in a context where it is implicitly or explicitly converted.
+- #### Boolean operators
+  - Comparison operators ==, ===, !=, !==, <, >, <=, and >=.
+  - Be careful with the comparison operators == and !=, always prefer the use of operators === and !==.
+  - Logical operators || and &&.
+  - Ternary operator (expression) ? true : false.
+- #### Symbol
+  - The Symbol type is primitive, unique, and immutable, acting like a unique key on an object.
+  - In addition, it is used in operations performed by the interpreter, such as the for/of command or String API operations such as match, split, replace and many others.
+
+#### Regular Expressions
+- Regular expressions are structures formed by a sequence of characters that specify a formal pattern that serve to validate, extract or even replace characters within a String.
+- \ - The slash is used before special characters, in order to escape them.
+- Starting and ending with a given character
+  ^ - Starts with a given character
+  $ - Ends with a given character
+- Character groups
+  - [abc] - Accepts any character within the group, in this case a, b, and c
+  - [^abc] - Does not accept any character within the group, in this case a, b or c
+  - [0-9] - Accepts any character between 0 and 9
+  - [^0-9] - Does not accept any character between 0 and 9
+- Quantifiers
+  - Quantifiers can be applied to characters, groups, sets, or metacharacters.
+  - {n} - Quantifies a specific number
+  - {n,} - Quantifies a minimum number
+  - {n,m} - Quantifies a minimum and maximum number
+  - ? - Zero or one
+  - * - Zero or more
+  - + - One or more
+- metacharacters
+  - \w - Represents the set [a-zA-Z0-9_]
+  - \W - Represents the set [^a-zA-Z0-9_]
+  - \d - Represents the set [0-9]
+  - \D - Represents the set [^0-9]
+  - \s - Represents a whitespace
+  - \S - Represents non-whitespace
+  - \n - Represents a line break
+  - \t - Represents a tab
+- Capture Groups
+  - () - Determines a capture group to extract values from a given String
+- Modifiers
+  - i - Case-insensitive matching
+  - g - Global matching
+  - m - Multiline matching
